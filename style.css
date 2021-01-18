@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    color: white;
+    background-color: black;
 }
 .intro-screen {
     position: fixed;
@@ -123,7 +125,6 @@ nav {
     padding-left: 5vw;
     padding-right: 5vw;
 }
-
 .image-block {
     width: 270px;
     height: 270px;
@@ -136,11 +137,42 @@ nav {
     filter: grayscale(100%);
     transition: all 1s;
 }
-
 img:hover {
     /* opacity: 0.5; */
     /* filter:alpha(opacity=40); */
     filter: none;
+}
+
+#galleryModal {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* background-color: red; */
+    /* text-align: center; */
+    /* align-self: center; */
+}
+.modal-dialog {
+    /* background-color: yellow; */
+    /* background-color: rgba(0,0,0,0.7); */
+    /* background-color: rebeccapurple; */
+    width: 100vw;
+    height: 100vh;
+}
+.modal-content {
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background-color: green;
+}
+.modal-header {
+    /* background-color: red; */
+}
+.modal-body {
+    /* background-color: blue; */
+    /* background-color: rgba(0,0,0,0.7); */
+}
+.popup-img {
+
+}
+.description {
+
 }
 .col {
     min-width: 320px;
@@ -160,6 +192,8 @@ img:hover {
     /* background-color: tomato; */
     padding: 5%;
     padding-left: 2%;
+    color: white;
+    background-color: black;
 }
 
 .portfolio-image {
